@@ -881,3 +881,14 @@ margin-bottom: 10px;
   font-family: $font-header;
   color: $color1;
 }
+
+.field-name-field-core-learnings {
+	.field-items {
+		.field-item {
+			background: url('../images/check-box-30.png') no-repeat 0 0;
+			padding-left: 40px;
+			padding-bottom: 0.5em;
+			margin-bottom: 0.5em;
+		}
+	}
+}

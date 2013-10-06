@@ -1792,6 +1792,14 @@ table.field-multiple-table tbody tr.odd a.tabledrag-handle .handle {
   color: #0063bf;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003887}}
+.field-name-field-core-learnings .field-items .field-item {
+  background: url("../images/check-box-30.png") no-repeat 0 0;
+  padding-left: 40px;
+  padding-bottom: 0.5em;
+  margin-bottom: 0.5em;
+}
+
 /**
  * @file
  * Print styling

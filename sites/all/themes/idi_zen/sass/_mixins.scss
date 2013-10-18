@@ -35,3 +35,26 @@
     @include element-invisible-off;
   }
 }
+
+@mixin response-panel-5col {
+  $zen-column-count: 5; /* Use 5 grid columns for larger screens. */
+  .panel-3col-resp {
+    .panel-col-content { /* Span 3 columns, starting in 1st column from left. */
+      @include zen-grid-item(3, 1);
+    }
+    .panel-col-sidebar-first { /* Span 1 column, starting in 4th column from left. */
+      @include zen-grid-item(1, 4);
+    }
+    .panel-col-sidebar-second { /* Span 1 column, starting in 5th column from left. */
+      @include zen-grid-item(1, 5);
+    }    
+  }
+  .panel-2col-resp {
+    .panel-col-content { /* Span 3 columns, starting in 1st column from left. */
+      @include zen-grid-item(3, 1);
+    }
+    .panel-col-sidebar-first { /* Span 2 column, starting in 4th column from left. */
+      @include zen-grid-item(2, 4);  
+    }
+  }
+}

@@ -636,15 +636,17 @@ table {
 }
 
 /* Apply the shared properties of grid items in a single, efficient ruleset. */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\0000348}}
 #header,
 #content,
 #navigation,
 .region-sidebar-first,
 .region-sidebar-second,
+.panel-col-sidebar-first,
+.panel-col-content,
 #footer {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -ms-box-sizing: border-box;
@@ -671,14 +673,14 @@ table {
 
 /* Navigation bar */
 @media all and (min-width: 480px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\0000362}}
   #main {
     /* Move all the children of #main down to make room. */
     padding-top: 3em;
     position: relative;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\0000367}}
   #navigation {
     /* Move the navbar up inside #main's padding. */
     position: absolute;
@@ -694,19 +696,19 @@ table {
   /**
    * The layout when there is only one sidebar, the left one.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\0000386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\0000388}}
   .sidebar-first {
     /* Span 2 columns, starting in 2nd column from left. */
     /* Span 1 column, starting in 1st column from left. */
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\0000390}}
   .sidebar-first #content {
     float: left;
     width: 66.66667%;
     margin-left: 33.33333%;
     margin-right: -100%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\0000393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\0000395}}
   .sidebar-first .region-sidebar-first {
     float: left;
     width: 33.33333%;
@@ -717,19 +719,19 @@ table {
   /**
    * The layout when there is only one sidebar, the right one.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003103}}
   .sidebar-second {
     /* Span 2 columns, starting in 1st column from left. */
     /* Span 1 column, starting in 3rd column from left. */
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003105}}
   .sidebar-second #content {
     float: left;
     width: 66.66667%;
     margin-left: 0%;
     margin-right: -66.66667%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003110}}
   .sidebar-second .region-sidebar-second {
     float: left;
     width: 33.33333%;
@@ -740,27 +742,27 @@ table {
   /**
    * The layout when there are two sidebars.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003118}}
   .two-sidebars {
     /* Span 2 columns, starting in 2nd column from left. */
     /* Span 1 column, starting in 1st column from left. */
     /* Start a new row and span all 3 columns. */
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003118}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003120}}
   .two-sidebars #content {
     float: left;
     width: 66.66667%;
     margin-left: 33.33333%;
     margin-right: -100%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003125}}
   .two-sidebars .region-sidebar-first {
     float: left;
     width: 33.33333%;
     margin-left: 0%;
     margin-right: -33.33333%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003128}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003130}}
   .two-sidebars .region-sidebar-second {
     float: left;
     width: 100%;
@@ -774,17 +776,17 @@ table {
     /* Span 1 column, starting in the 2nd column from left. */
     /* Span 1 column, starting in the 3rd column from left. */
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003134}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003136}}
   .two-sidebars .region-sidebar-second .block {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
     word-wrap: break-word;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003138}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003140}}
   .two-sidebars .region-sidebar-second .block:nth-child(3n+1) {
     float: left;
     width: 33.33333%;
@@ -792,14 +794,14 @@ table {
     margin-right: -33.33333%;
     clear: left;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003143}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003145}}
   .two-sidebars .region-sidebar-second .block:nth-child(3n+2) {
     float: left;
     width: 33.33333%;
     margin-left: 33.33333%;
     margin-right: -66.66667%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003147}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003149}}
   .two-sidebars .region-sidebar-second .block:nth-child(3n) {
     float: left;
     width: 33.33333%;
@@ -811,22 +813,67 @@ table {
  * Use 5 grid columns for larger screens.
  */
 @media all and (min-width: 960px) {
+  /* Use 5 grid columns for larger screens. */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/_mixins\.scss}line{font-family:\0000342}}
+  .panel-3col-resp .panel-col-content {
+    /* Span 3 columns, starting in 1st column from left. */
+    float: left;
+    width: 60%;
+    margin-left: 0%;
+    margin-right: -60%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/_mixins\.scss}line{font-family:\0000345}}
+  .panel-3col-resp .panel-col-sidebar-first {
+    /* Span 1 column, starting in 4th column from left. */
+    float: left;
+    width: 20%;
+    margin-left: 60%;
+    margin-right: -80%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/_mixins\.scss}line{font-family:\0000348}}
+  .panel-3col-resp .panel-col-sidebar-second {
+    /* Span 1 column, starting in 5th column from left. */
+    float: left;
+    width: 20%;
+    margin-left: 80%;
+    margin-right: -100%;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/_mixins\.scss}line{font-family:\0000353}}
+  .panel-2col-resp .panel-col-content {
+    /* Span 3 columns, starting in 1st column from left. */
+    float: left;
+    width: 60%;
+    margin-left: 0%;
+    margin-right: -60%;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/_mixins\.scss}line{font-family:\0000356}}
+  .panel-2col-resp .panel-col-sidebar-first {
+    /* Span 2 column, starting in 4th column from left. */
+    float: left;
+    width: 40%;
+    margin-left: 60%;
+    margin-right: -100%;
+  }
+
+  /* 5-col grid -- 3/1/1
+  
   /**
    * The layout when there is only one sidebar, the left one.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003164}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003168}}
   .sidebar-first {
     /* Span 4 columns, starting in 2nd column from left. */
     /* Span 1 column, starting in 1st column from left. */
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003166}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003170}}
   .sidebar-first #content {
     float: left;
     width: 80%;
     margin-left: 20%;
     margin-right: -100%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003171}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003175}}
   .sidebar-first .region-sidebar-first {
     float: left;
     width: 20%;
@@ -837,19 +884,19 @@ table {
   /**
    * The layout when there is only one sidebar, the right one.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003179}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003183}}
   .sidebar-second {
     /* Span 4 columns, starting in 1st column from left. */
     /* Span 1 column, starting in 5th column from left. */
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003181}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003185}}
   .sidebar-second #content {
     float: left;
     width: 80%;
     margin-left: 0%;
     margin-right: -80%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003186}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003190}}
   .sidebar-second .region-sidebar-second {
     float: left;
     width: 20%;
@@ -860,27 +907,27 @@ table {
   /**
    * The layout when there are two sidebars.
    */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003194}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003198}}
   .two-sidebars {
     /* Span 3 columns, starting in 2nd column from left. */
     /* Span 1 column, starting in 1st column from left. */
     /* Span 1 column, starting in 5th column from left. */
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003196}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003200}}
   .two-sidebars #content {
     float: left;
     width: 60%;
     margin-left: 20%;
     margin-right: -80%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003201}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003205}}
   .two-sidebars .region-sidebar-first {
     float: left;
     width: 20%;
     margin-left: 0%;
     margin-right: -20%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003206}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003210}}
   .two-sidebars .region-sidebar-second {
     float: left;
     width: 20%;
@@ -1798,6 +1845,50 @@ table.field-multiple-table tbody tr.odd a.tabledrag-handle .handle {
   padding-left: 40px;
   padding-bottom: 0.5em;
   margin-bottom: 0.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003896}}
+.field-name-field-images {
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003898}}
+.field-name-field-images .field-item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003902}}
+.field-name-field-images .field-item img {
+  border: 5px solid #FFF;
+  box-shadow: 2px 2px 5px #737373;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003910}}
+.field-expander .read-more, .field-expander .read-less {
+  margin: 1em 1em 0 0;
+  clear: both;
+  display: block;
+  text-align: right;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003915}}
+.field-expander .read-more a, .field-expander .read-more a:visited, .field-expander .read-less a, .field-expander .read-less a:visited {
+  display: inline-block;
+  margin: 0.15em 0;
+  padding: 0.25em .5em;
+  white-space: nowrap;
+  background-color: #E7E5E3;
+  color: #100100;
+  text-decoration: none;
+  border-radius: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003925}}
+.field-expander .read-more a:hover, .field-expander .read-more a:focus, .field-expander .read-more a:active, .field-expander .read-less a:hover, .field-expander .read-less a:focus, .field-expander .read-less a:active {
+  background-color: #D7D5D3;
+  color: #100101;
+  -webkit-transition: background-color 0.3s;
+  -moz-transition: background-color 0.3s;
+  -o-transition: background-color 0.3s;
+  transition: background-color 0.3s;
 }
 
 /**

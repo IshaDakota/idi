@@ -892,3 +892,43 @@ margin-bottom: 10px;
 		}
 	}
 }
+
+.field-name-field-images {
+clear: both;
+  .field-item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    img {
+      border: 5px solid #FFF;
+      box-shadow: 2px 2px 5px #737373;
+    }
+  }
+}
+
+.field-expander {
+  .read-more, .read-less {
+    margin: 1em 1em 0 0;
+    clear: both;
+    display: block;
+    text-align: right;
+    a, a:visited {
+      display: inline-block;
+      margin: 0.15em 0;
+      padding: 0.25em .5em;
+      white-space: nowrap;
+      background-color: #E7E5E3;
+      color: #100100;
+      text-decoration: none;
+      border-radius: 5px;
+    }  
+    a:hover, a:focus, a:active{
+      background-color: #D7D5D3;
+      color: #100101;
+      @include transition(background-color 0.3s);
+    }
+  }
+  .read-less {
+     //font-weight: 200;
+  }
+}

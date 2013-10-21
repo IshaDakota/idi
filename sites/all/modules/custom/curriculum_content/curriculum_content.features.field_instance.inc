@@ -320,7 +320,7 @@ function curriculum_content_field_default_field_instances() {
         'progress_indicator' => 'throbber',
       ),
       'type' => 'media_generic',
-      'weight' => 10,
+      'weight' => 11,
     ),
   );
 
@@ -362,6 +362,65 @@ function curriculum_content_field_default_field_instances() {
       ),
       'type' => 'autocomplete_deluxe_taxonomy',
       'weight' => 3,
+    ),
+  );
+
+  // Exported field_instance: 'node-curriculum_content-field_student_handouts'
+  $field_instances['node-curriculum_content-field_student_handouts'] = array(
+    'bundle' => 'curriculum_content',
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'file',
+        'settings' => array(),
+        'type' => 'file_default',
+        'weight' => 11,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_student_handouts',
+    'label' => 'Student Handouts',
+    'required' => 0,
+    'settings' => array(
+      'description_field' => 0,
+      'file_directory' => '',
+      'file_extensions' => 'pdf doc docx',
+      'max_filesize' => '',
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'media',
+      'settings' => array(
+        'allowed_schemes' => array(
+          'public' => 'public',
+          'youtube' => 0,
+        ),
+        'allowed_types' => array(
+          'audio' => 0,
+          'document' => 'document',
+          'image' => 0,
+          'video' => 0,
+        ),
+        'browser_plugins' => array(
+          'media_default--media_browser_1' => 0,
+          'media_default--media_browser_my_files' => 0,
+          'media_internet' => 0,
+          'upload' => 0,
+          'youtube' => 0,
+        ),
+        'progress_indicator' => 'throbber',
+      ),
+      'type' => 'media_generic',
+      'weight' => 10,
     ),
   );
 
@@ -452,7 +511,66 @@ function curriculum_content_field_default_field_instances() {
         'progress_indicator' => 'throbber',
       ),
       'type' => 'media_generic',
-      'weight' => 11,
+      'weight' => 12,
+    ),
+  );
+
+  // Exported field_instance: 'node-curriculum_content-field_supporting_video'
+  $field_instances['node-curriculum_content-field_supporting_video'] = array(
+    'bundle' => 'curriculum_content',
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'file',
+        'settings' => array(),
+        'type' => 'file_default',
+        'weight' => 12,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_supporting_video',
+    'label' => 'Supporting Video',
+    'required' => 0,
+    'settings' => array(
+      'description_field' => 0,
+      'file_directory' => '',
+      'file_extensions' => 'txt',
+      'max_filesize' => '',
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'media',
+      'settings' => array(
+        'allowed_schemes' => array(
+          'public' => 0,
+          'youtube' => 'youtube',
+        ),
+        'allowed_types' => array(
+          'audio' => 0,
+          'document' => 0,
+          'image' => 0,
+          'video' => 'video',
+        ),
+        'browser_plugins' => array(
+          'media_default--media_browser_1' => 'media_default--media_browser_1',
+          'media_default--media_browser_my_files' => 0,
+          'media_internet' => 'media_internet',
+          'upload' => 0,
+          'youtube' => 0,
+        ),
+        'progress_indicator' => 'throbber',
+      ),
+      'type' => 'media_generic',
+      'weight' => 14,
     ),
   );
 
@@ -533,8 +651,10 @@ function curriculum_content_field_default_field_instances() {
   t('Materials Required');
   t('Please choose all the necessary equipment and materials needed to facilitate this activity successfully (you may add new materials to the list, but do so only after looking at the entire list). ');
   t('Please list 1-3 core learnings we want the campers to take away from this activity (click "add another item" for each discrete learning objective).');
+  t('Student Handouts');
   t('Supporting Images');
   t('Supporting Materials');
+  t('Supporting Video');
   t('Supporting Web Resources');
   t('Using no more than 50 words, please write an “invitation-pitch” for this activity to the campers.  What can they expect to do and learn?  ');
   t('Wrap-Up');

@@ -183,7 +183,7 @@ function curriculum_content_strongarm() {
           'weight' => '1',
         ),
         'path' => array(
-          'weight' => '12',
+          'weight' => '15',
         ),
       ),
       'display' => array(),

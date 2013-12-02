@@ -648,8 +648,8 @@ table {
 .panel-col-sidebar-first,
 .panel-col-content,
 #footer {
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 12px;
+  padding-right: 13px;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -ms-box-sizing: border-box;
@@ -781,8 +781,8 @@ table {
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/layouts\/_responsive\.scss}line{font-family:\00003139}}
   .two-sidebars .region-sidebar-second .block {
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 12px;
+    padding-right: 13px;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -ms-box-sizing: border-box;
@@ -1892,6 +1892,11 @@ table.field-multiple-table tbody tr.odd a.tabledrag-handle .handle {
   -moz-transition: background-color 0.3s;
   -o-transition: background-color 0.3s;
   transition: background-color 0.3s;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003939}}
+.panel-col-sidebar-first .panel-pane .field-items {
+  padding-left: 1em;
 }
 
 /**

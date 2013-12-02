@@ -126,7 +126,8 @@ html {
 body {
   margin: 30px 0 0 0;
   padding: 0;
-  background: #FFF2D7;
+  //background: #FFF2D7;
+  background: $color2;
 }
 
 /**
@@ -137,12 +138,12 @@ body {
  */
 a:link {
 	text-decoration: none;
-	color: #0063BF;
+	color: $color1;
   @include transition(color 0.3s);
 }
 a:visited {
 	text-decoration: none;
-	color: #0063BF;
+	color: $color1;
   @include transition(color 0.3s);
 }
 a:hover,

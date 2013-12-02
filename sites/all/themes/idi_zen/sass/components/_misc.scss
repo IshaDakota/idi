@@ -105,7 +105,7 @@
 .header__site-link {
   &:link,
   &:visited {
-    color: #0063BF;
+    color: $color1;
     text-decoration: none;
   }
 
@@ -169,14 +169,15 @@
 			  @include adjust-leading-to(1);
 			  text-decoration: none;
 			  @include transition(background-color 0.3s);
-				color: #333;
-				background-color: #dedede;
+				color: $color4;
+				//background-color: #dedede;
+				background-color: $color2;
 				letter-spacing: 1px;
 				padding: 0.5em 1em;
 				text-align: center;
 			}
 			a:hover, a:focus {
-				background-color: #e9e9e9;
+				background-color: $color4b;
 				border-color: #f2f2f2;
 			}
     }
@@ -879,7 +880,7 @@ margin-bottom: 10px;
   @include leader(1, $h3-font-size);
   @include trailer(1, $h3-font-size);
   font-family: $font-header;
-  color: $color1;
+  color: $color2;
 }
 
 .field-name-field-core-learnings {
@@ -917,14 +918,15 @@ clear: both;
       margin: 0.15em 0;
       padding: 0.25em .5em;
       white-space: nowrap;
-      background-color: #E7E5E3;
-      color: #100100;
+      background-color: $color2;
+      //background-color: #E7E5E3;
+      color: $color4;
       text-decoration: none;
       border-radius: 5px;
     }  
     a:hover, a:focus, a:active{
-      background-color: #D7D5D3;
-      color: #100101;
+      background-color: $color4b;
+      color: $color4;
       @include transition(background-color 0.3s);
     }
   }

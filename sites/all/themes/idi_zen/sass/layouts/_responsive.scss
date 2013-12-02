@@ -36,7 +36,8 @@ $zen-auto-include-item-base: false;
   margin-right: auto;
   max-width: 1200px;
   box-shadow: 3px 3px 5px #737373;
-  background: #f7f7f7;
+  //background: #f7f7f7;
+  background: $color3;
   padding: 2em;
 }
 

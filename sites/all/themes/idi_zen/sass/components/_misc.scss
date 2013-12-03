@@ -886,12 +886,23 @@ margin-bottom: 10px;
 .field-name-field-core-learnings {
 	.field-items {
 		.field-item {
-			background: url('../images/check-box-30.png') no-repeat 0 0;
+			background: url('../images/check-box-30-orange.png') no-repeat 0 0;
 			padding-left: 40px;
 			padding-bottom: 0.5em;
 			margin-bottom: 0.5em;
 		}
 	}
+}
+
+.field-name-field-central-ideas {
+	.field-items {
+		.field-item {
+			background: url('../images/question-mark-30-orange.png') no-repeat 0 0;
+			padding-left: 40px;
+			padding-bottom: 0.5em;
+			margin-bottom: 0.5em;
+		}
+	}  
 }
 
 .field-name-field-images {

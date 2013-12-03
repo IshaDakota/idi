@@ -1844,36 +1844,44 @@ table.field-multiple-table tbody tr.odd a.tabledrag-handle .handle {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003888}}
 .field-name-field-core-learnings .field-items .field-item {
-  background: url("../images/check-box-30.png") no-repeat 0 0;
+  background: url("../images/check-box-30-orange.png") no-repeat 0 0;
   padding-left: 40px;
   padding-bottom: 0.5em;
   margin-bottom: 0.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003897}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003899}}
+.field-name-field-central-ideas .field-items .field-item {
+  background: url("../images/question-mark-30-orange.png") no-repeat 0 0;
+  padding-left: 40px;
+  padding-bottom: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003908}}
 .field-name-field-images {
   clear: both;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003899}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003910}}
 .field-name-field-images .field-item {
   display: inline-block;
   vertical-align: middle;
   margin-right: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003903}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003914}}
 .field-name-field-images .field-item img {
   border: 5px solid #FFF;
   box-shadow: 2px 2px 5px #737373;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003911}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003922}}
 .field-expander .read-more, .field-expander .read-less {
   margin: 1em 1em 0 0;
   clear: both;
   display: block;
   text-align: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003916}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003927}}
 .field-expander .read-more a, .field-expander .read-more a:visited, .field-expander .read-less a, .field-expander .read-less a:visited {
   display: inline-block;
   margin: 0.15em 0;
@@ -1884,7 +1892,7 @@ table.field-multiple-table tbody tr.odd a.tabledrag-handle .handle {
   text-decoration: none;
   border-radius: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003927}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003938}}
 .field-expander .read-more a:hover, .field-expander .read-more a:focus, .field-expander .read-more a:active, .field-expander .read-less a:hover, .field-expander .read-less a:focus, .field-expander .read-less a:active {
   background-color: #ffcd93;
   color: #ff9311;
@@ -1894,7 +1902,7 @@ table.field-multiple-table tbody tr.odd a.tabledrag-handle .handle {
   transition: background-color 0.3s;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003941}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003952}}
 .panel-col-sidebar-first .panel-pane .field-items {
   padding-left: 1em;
 }

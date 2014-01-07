@@ -1907,6 +1907,16 @@ table.field-multiple-table tbody tr.odd a.tabledrag-handle .handle {
   padding-left: 1em;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003958}}
+#block-block-3 {
+  text-align: center;
+  margin-top: 1.5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003961}}
+#block-block-3 img#icenter-logo, #block-block-3 img#idi-logo {
+  margin: 1em;
+}
+
 /**
  * @file
  * Print styling

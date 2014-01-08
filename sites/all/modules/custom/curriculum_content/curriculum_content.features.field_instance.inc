@@ -51,7 +51,7 @@ function curriculum_content_field_default_field_instances() {
         'summary_rows' => 5,
       ),
       'type' => 'text_textarea_with_summary',
-      'weight' => 2,
+      'weight' => 3,
     ),
   );
 
@@ -96,7 +96,7 @@ function curriculum_content_field_default_field_instances() {
         'rows' => 8,
       ),
       'type' => 'text_textarea',
-      'weight' => 8,
+      'weight' => 9,
     ),
   );
 
@@ -140,7 +140,7 @@ function curriculum_content_field_default_field_instances() {
         'rows' => 8,
       ),
       'type' => 'text_textarea',
-      'weight' => 9,
+      'weight' => 10,
     ),
   );
 
@@ -179,7 +179,7 @@ function curriculum_content_field_default_field_instances() {
         'rows' => 5,
       ),
       'type' => 'text_textarea',
-      'weight' => 6,
+      'weight' => 7,
     ),
   );
 
@@ -219,7 +219,7 @@ function curriculum_content_field_default_field_instances() {
         'size' => 100,
       ),
       'type' => 'text_textfield',
-      'weight' => 5,
+      'weight' => 6,
     ),
   );
 
@@ -259,7 +259,66 @@ function curriculum_content_field_default_field_instances() {
         'size' => 100,
       ),
       'type' => 'text_textfield',
-      'weight' => 4,
+      'weight' => 5,
+    ),
+  );
+
+  // Exported field_instance: 'node-curriculum_content-field_display_image'
+  $field_instances['node-curriculum_content-field_display_image'] = array(
+    'bundle' => 'curriculum_content',
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'file',
+        'settings' => array(),
+        'type' => 'file_default',
+        'weight' => 13,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_display_image',
+    'label' => 'display Image',
+    'required' => 0,
+    'settings' => array(
+      'description_field' => 0,
+      'file_directory' => '',
+      'file_extensions' => 'jpg jpeg png gif',
+      'max_filesize' => '',
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'media',
+      'settings' => array(
+        'allowed_schemes' => array(
+          'public' => 'public',
+          'youtube' => 0,
+        ),
+        'allowed_types' => array(
+          'audio' => 0,
+          'document' => 0,
+          'image' => 'image',
+          'video' => 0,
+        ),
+        'browser_plugins' => array(
+          'media_default--media_browser_1' => 'media_default--media_browser_1',
+          'media_default--media_browser_my_files' => 0,
+          'media_internet' => 'media_internet',
+          'upload' => 'upload',
+          'youtube' => 0,
+        ),
+        'progress_indicator' => 'throbber',
+      ),
+      'type' => 'media_generic',
+      'weight' => 1,
     ),
   );
 
@@ -320,7 +379,7 @@ function curriculum_content_field_default_field_instances() {
         'progress_indicator' => 'throbber',
       ),
       'type' => 'media_generic',
-      'weight' => 11,
+      'weight' => 12,
     ),
   );
 
@@ -361,7 +420,7 @@ function curriculum_content_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'autocomplete_deluxe_taxonomy',
-      'weight' => 3,
+      'weight' => 4,
     ),
   );
 
@@ -420,7 +479,7 @@ function curriculum_content_field_default_field_instances() {
         'progress_indicator' => 'throbber',
       ),
       'type' => 'media_generic',
-      'weight' => 10,
+      'weight' => 11,
     ),
   );
 
@@ -461,7 +520,7 @@ function curriculum_content_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'autocomplete_deluxe_taxonomy',
-      'weight' => 7,
+      'weight' => 8,
     ),
   );
 
@@ -511,7 +570,7 @@ function curriculum_content_field_default_field_instances() {
         'progress_indicator' => 'throbber',
       ),
       'type' => 'media_generic',
-      'weight' => 12,
+      'weight' => 14,
     ),
   );
 
@@ -570,7 +629,7 @@ function curriculum_content_field_default_field_instances() {
         'progress_indicator' => 'throbber',
       ),
       'type' => 'media_generic',
-      'weight' => 14,
+      'weight' => 16,
     ),
   );
 
@@ -624,7 +683,7 @@ function curriculum_content_field_default_field_instances() {
       'module' => 'link',
       'settings' => array(),
       'type' => 'link_field',
-      'weight' => 13,
+      'weight' => 15,
     ),
   );
 
@@ -658,6 +717,7 @@ function curriculum_content_field_default_field_instances() {
   t('Supporting Web Resources');
   t('Using no more than 50 words, please write an “invitation-pitch” for this activity to the campers.  What can they expect to do and learn?  ');
   t('Wrap-Up');
+  t('display Image');
 
   return $field_instances;
 }

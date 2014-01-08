@@ -120,6 +120,36 @@ function curriculum_content_default_page_manager_handlers() {
     $pane->pid = 'new-3';
     $pane->panel = 'content';
     $pane->type = 'entity_field';
+    $pane->subtype = 'node:field_display_image';
+    $pane->shown = TRUE;
+    $pane->access = array();
+    $pane->configuration = array(
+      'label' => 'hidden',
+      'formatter' => 'file_rendered',
+      'delta_limit' => 0,
+      'delta_offset' => '0',
+      'delta_reversed' => FALSE,
+      'formatter_settings' => array(
+        'file_view_mode' => 'media_original',
+      ),
+      'context' => 'argument_entity_id:node_1',
+      'override_title' => 0,
+      'override_title_text' => '',
+    );
+    $pane->cache = array();
+    $pane->style = array(
+      'settings' => NULL,
+    );
+    $pane->css = array();
+    $pane->extras = array();
+    $pane->position = 2;
+    $pane->locks = array();
+    $display->content['new-3'] = $pane;
+    $display->panels['content'][2] = 'new-3';
+    $pane = new stdClass();
+    $pane->pid = 'new-4';
+    $pane->panel = 'content';
+    $pane->type = 'entity_field';
     $pane->subtype = 'node:field_materials';
     $pane->shown = TRUE;
     $pane->access = array();
@@ -140,12 +170,12 @@ function curriculum_content_default_page_manager_handlers() {
     );
     $pane->css = array();
     $pane->extras = array();
-    $pane->position = 2;
+    $pane->position = 3;
     $pane->locks = array();
-    $display->content['new-3'] = $pane;
-    $display->panels['content'][2] = 'new-3';
+    $display->content['new-4'] = $pane;
+    $display->panels['content'][3] = 'new-4';
     $pane = new stdClass();
-    $pane->pid = 'new-4';
+    $pane->pid = 'new-5';
     $pane->panel = 'content';
     $pane->type = 'entity_field';
     $pane->subtype = 'node:field_activity_explanation';
@@ -168,12 +198,12 @@ function curriculum_content_default_page_manager_handlers() {
     );
     $pane->css = array();
     $pane->extras = array();
-    $pane->position = 3;
+    $pane->position = 4;
     $pane->locks = array();
-    $display->content['new-4'] = $pane;
-    $display->panels['content'][3] = 'new-4';
+    $display->content['new-5'] = $pane;
+    $display->panels['content'][4] = 'new-5';
     $pane = new stdClass();
-    $pane->pid = 'new-5';
+    $pane->pid = 'new-6';
     $pane->panel = 'content';
     $pane->type = 'entity_field';
     $pane->subtype = 'node:field_subjects';
@@ -196,12 +226,12 @@ function curriculum_content_default_page_manager_handlers() {
     );
     $pane->css = array();
     $pane->extras = array();
-    $pane->position = 4;
+    $pane->position = 5;
     $pane->locks = array();
-    $display->content['new-5'] = $pane;
-    $display->panels['content'][4] = 'new-5';
+    $display->content['new-6'] = $pane;
+    $display->panels['content'][5] = 'new-6';
     $pane = new stdClass();
-    $pane->pid = 'new-6';
+    $pane->pid = 'new-7';
     $pane->panel = 'content';
     $pane->type = 'entity_field';
     $pane->subtype = 'node:field_activity_wrapup';
@@ -224,12 +254,12 @@ function curriculum_content_default_page_manager_handlers() {
     );
     $pane->css = array();
     $pane->extras = array();
-    $pane->position = 5;
+    $pane->position = 6;
     $pane->locks = array();
-    $display->content['new-6'] = $pane;
-    $display->panels['content'][5] = 'new-6';
+    $display->content['new-7'] = $pane;
+    $display->panels['content'][6] = 'new-7';
     $pane = new stdClass();
-    $pane->pid = 'new-7';
+    $pane->pid = 'new-8';
     $pane->panel = 'content';
     $pane->type = 'entity_field';
     $pane->subtype = 'node:field_student_handouts';
@@ -252,12 +282,12 @@ function curriculum_content_default_page_manager_handlers() {
     );
     $pane->css = array();
     $pane->extras = array();
-    $pane->position = 6;
+    $pane->position = 7;
     $pane->locks = array();
-    $display->content['new-7'] = $pane;
-    $display->panels['content'][6] = 'new-7';
+    $display->content['new-8'] = $pane;
+    $display->panels['content'][7] = 'new-8';
     $pane = new stdClass();
-    $pane->pid = 'new-8';
+    $pane->pid = 'new-9';
     $pane->panel = 'sidebarfirst';
     $pane->type = 'entity_field';
     $pane->subtype = 'node:field_background';
@@ -289,10 +319,10 @@ function curriculum_content_default_page_manager_handlers() {
     $pane->extras = array();
     $pane->position = 0;
     $pane->locks = array();
-    $display->content['new-8'] = $pane;
-    $display->panels['sidebarfirst'][0] = 'new-8';
+    $display->content['new-9'] = $pane;
+    $display->panels['sidebarfirst'][0] = 'new-9';
     $pane = new stdClass();
-    $pane->pid = 'new-9';
+    $pane->pid = 'new-10';
     $pane->panel = 'sidebarfirst';
     $pane->type = 'entity_field';
     $pane->subtype = 'node:field_supporting_web_resources';
@@ -317,10 +347,10 @@ function curriculum_content_default_page_manager_handlers() {
     $pane->extras = array();
     $pane->position = 1;
     $pane->locks = array();
-    $display->content['new-9'] = $pane;
-    $display->panels['sidebarfirst'][1] = 'new-9';
+    $display->content['new-10'] = $pane;
+    $display->panels['sidebarfirst'][1] = 'new-10';
     $pane = new stdClass();
-    $pane->pid = 'new-10';
+    $pane->pid = 'new-11';
     $pane->panel = 'sidebarfirst';
     $pane->type = 'entity_field';
     $pane->subtype = 'node:field_images';
@@ -347,10 +377,10 @@ function curriculum_content_default_page_manager_handlers() {
     $pane->extras = array();
     $pane->position = 2;
     $pane->locks = array();
-    $display->content['new-10'] = $pane;
-    $display->panels['sidebarfirst'][2] = 'new-10';
+    $display->content['new-11'] = $pane;
+    $display->panels['sidebarfirst'][2] = 'new-11';
     $pane = new stdClass();
-    $pane->pid = 'new-11';
+    $pane->pid = 'new-12';
     $pane->panel = 'sidebarfirst';
     $pane->type = 'entity_field';
     $pane->subtype = 'node:field_supporting_materials';
@@ -375,10 +405,10 @@ function curriculum_content_default_page_manager_handlers() {
     $pane->extras = array();
     $pane->position = 3;
     $pane->locks = array();
-    $display->content['new-11'] = $pane;
-    $display->panels['sidebarfirst'][3] = 'new-11';
+    $display->content['new-12'] = $pane;
+    $display->panels['sidebarfirst'][3] = 'new-12';
     $pane = new stdClass();
-    $pane->pid = 'new-12';
+    $pane->pid = 'new-13';
     $pane->panel = 'sidebarfirst';
     $pane->type = 'entity_field';
     $pane->subtype = 'node:field_supporting_video';
@@ -405,8 +435,8 @@ function curriculum_content_default_page_manager_handlers() {
     $pane->extras = array();
     $pane->position = 4;
     $pane->locks = array();
-    $display->content['new-12'] = $pane;
-    $display->panels['sidebarfirst'][4] = 'new-12';
+    $display->content['new-13'] = $pane;
+    $display->panels['sidebarfirst'][4] = 'new-13';
   $display->hide_title = PANELS_TITLE_FIXED;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;

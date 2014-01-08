@@ -905,6 +905,18 @@ margin-bottom: 10px;
 	}  
 }
 
+.field-name-field-display-image {
+  img {
+    width: 90%;
+    margin: 0 5%;
+  }
+  .field-name-field-caption {
+    font-size: .8em;
+    font-style: italic;
+    margin: 0 5%;
+  }
+}
+
 .field-name-field-images {
 clear: both;
   .field-item {

@@ -1858,30 +1858,42 @@ table.field-multiple-table tbody tr.odd a.tabledrag-handle .handle {
   margin-bottom: 0.5em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003908}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003909}}
+.field-name-field-display-image img {
+  width: 90%;
+  margin: 0 5%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003913}}
+.field-name-field-display-image .field-name-field-caption {
+  font-size: .8em;
+  font-style: italic;
+  margin: 0 5%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003920}}
 .field-name-field-images {
   clear: both;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003910}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003922}}
 .field-name-field-images .field-item {
   display: inline-block;
   vertical-align: middle;
   margin-right: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003914}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003926}}
 .field-name-field-images .field-item img {
   border: 5px solid #FFF;
   box-shadow: 2px 2px 5px #737373;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003922}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003934}}
 .field-expander .read-more, .field-expander .read-less {
   margin: 1em 1em 0 0;
   clear: both;
   display: block;
   text-align: right;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003927}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003939}}
 .field-expander .read-more a, .field-expander .read-more a:visited, .field-expander .read-less a, .field-expander .read-less a:visited {
   display: inline-block;
   margin: 0.15em 0;
@@ -1892,7 +1904,7 @@ table.field-multiple-table tbody tr.odd a.tabledrag-handle .handle {
   text-decoration: none;
   border-radius: 5px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003938}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003950}}
 .field-expander .read-more a:hover, .field-expander .read-more a:focus, .field-expander .read-more a:active, .field-expander .read-less a:hover, .field-expander .read-less a:focus, .field-expander .read-less a:active {
   background-color: #ffcd93;
   color: #ff9311;
@@ -1902,17 +1914,17 @@ table.field-multiple-table tbody tr.odd a.tabledrag-handle .handle {
   transition: background-color 0.3s;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003952}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003964}}
 .panel-col-sidebar-first .panel-pane .field-items {
   padding-left: 1em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003958}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003970}}
 #block-block-3 {
   text-align: center;
   margin-top: 1.5em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003961}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/adam\/Sites\/idi\/sites\/all\/themes\/idi_zen\/sass\/components\/_misc\.scss}line{font-family:\00003973}}
 #block-block-3 img#icenter-logo, #block-block-3 img#idi-logo {
   margin: 1em;
 }

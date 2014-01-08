@@ -111,14 +111,60 @@ function curriculum_content_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'field_bundle_settings_file__image';
   $strongarm->value = array(
-    'view_modes' => array(),
+    'view_modes' => array(
+      'teaser' => array(
+        'custom_settings' => TRUE,
+      ),
+      'preview' => array(
+        'custom_settings' => TRUE,
+      ),
+      'media_link' => array(
+        'custom_settings' => TRUE,
+      ),
+      'media_original' => array(
+        'custom_settings' => TRUE,
+      ),
+      'full' => array(
+        'custom_settings' => FALSE,
+      ),
+      'rss' => array(
+        'custom_settings' => FALSE,
+      ),
+      'search_index' => array(
+        'custom_settings' => FALSE,
+      ),
+      'search_result' => array(
+        'custom_settings' => FALSE,
+      ),
+      'token' => array(
+        'custom_settings' => FALSE,
+      ),
+    ),
     'extra_fields' => array(
-      'form' => array(),
+      'form' => array(
+        'filename' => array(
+          'weight' => '-10',
+        ),
+        'preview' => array(
+          'weight' => '-5',
+        ),
+        'redirect' => array(
+          'weight' => '30',
+        ),
+      ),
       'display' => array(
         'file' => array(
           'media_small' => array(
             'weight' => 0,
             'visible' => FALSE,
+          ),
+          'default' => array(
+            'weight' => '0',
+            'visible' => TRUE,
+          ),
+          'media_original' => array(
+            'weight' => '0',
+            'visible' => TRUE,
           ),
         ),
       ),
@@ -180,10 +226,10 @@ function curriculum_content_strongarm() {
           'weight' => '0',
         ),
         'redirect' => array(
-          'weight' => '1',
+          'weight' => '2',
         ),
         'path' => array(
-          'weight' => '15',
+          'weight' => '13',
         ),
       ),
       'display' => array(),

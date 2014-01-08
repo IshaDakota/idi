@@ -958,6 +958,17 @@ clear: both;
   }
 }
 
+.view-idi-modules{
+  .views-row {
+    clear: both;
+    margin-bottom: 1.5em;
+    min-height: 150px;  
+    .views-field-field-display-image {
+      float: left;
+      margin-right: 1em; 
+    }
+  }
+}
 
 .panel-col-sidebar-first {
   .panel-pane  {

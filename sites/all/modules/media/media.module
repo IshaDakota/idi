@@ -558,17 +558,6 @@ function media_form_wysiwyg_profile_form_alter(&$form, &$form_state) {
 }
 
 /**
- * Implements hook_file_download_access().
- */
-function media_file_download_access($field, $entity_type, $entity) {
-  if ($entity_type == 'media') {
-    // @todo replace this with file_entity_access one, when downloads
-    // are supported by file_entity module.
-    return user_access('view files');
-  }
-}
-
-/**
  * Access callback for the media-multi form.
  *
  * @param $files
@@ -608,13 +597,6 @@ function _media_file_entity_access_recursive($files, $op) {
  */
 function media_multi_load($fids) {
   return file_load_multiple(explode(' ', $fids));
-}
-
-/**
- * Returns the type of the media file to be used as a page title.
- */
-function media_type_page_title($type) {
-  return t('@type media type settings', array('@type' => $type->label));
 }
 
 /* ***************************************** */
@@ -914,7 +896,7 @@ function media_element_process(&$element, &$form_state, $form) {
       ),
     ),
     '#weight' => 20,
-    '#access' => file_entity_access('update', $file),
+    '#access' => $file ? file_entity_access('update', $file) : TRUE, // only do perm check for existing files
   );
   $element['remove'] = array(
     '#type' => 'link',
@@ -1075,37 +1057,45 @@ function media_file_displays_alter(&$displays, $file, $view_mode) {
  */
 function media_file_default_displays_alter(&$file_displays) {
   // Image previews should be displayed using the media image style.
-  $file_displays['image__preview__file_field_image']->settings['image_style'] = 'media_thumbnail';
+  if (isset($file_displays['image__preview__file_field_image'])) {
+    $file_displays['image__preview__file_field_image']->settings['image_style'] = 'media_thumbnail';
+  }
 
   // Video previews should be displayed using a large filetype icon.
-  $file_displays['video__preview__file_field_file_default']->status = FALSE;
+  if (isset($file_displays['video__preview__file_field_file_default'])) {
+    $file_displays['video__preview__file_field_file_default']->status = FALSE;
+  }
 
   $file_display = new stdClass();
   $file_display->api_version = 1;
   $file_display->name = 'video__preview__file_field_media_large_icon';
-  $file_display->weight = 0;
+  $file_display->weight = 50;
   $file_display->status = TRUE;
   $file_display->settings = '';
   $file_displays['video__preview__file_field_media_large_icon'] = $file_display;
 
   // Audio previews should be displayed using a large filetype icon.
-  $file_displays['audio__preview__file_field_file_default']->status = FALSE;
+  if (isset($file_displays['audio__preview__file_field_file_default'])) {
+    $file_displays['audio__preview__file_field_file_default']->status = FALSE;
+  }
 
   $file_display = new stdClass();
   $file_display->api_version = 1;
   $file_display->name = 'audio__preview__file_field_media_large_icon';
-  $file_display->weight = 0;
+  $file_display->weight = 50;
   $file_display->status = TRUE;
   $file_display->settings = '';
   $file_displays['audio__preview__file_field_media_large_icon'] = $file_display;
 
   // Document previews should be displayed using a large filetype icon.
-  $file_displays['document__preview__file_field_file_default']->status = FALSE;
+  if (isset($file_displays['document__preview__file_field_file_default'])) {
+    $file_displays['document__preview__file_field_file_default']->status = FALSE;
+  }
 
   $file_display = new stdClass();
   $file_display->api_version = 1;
   $file_display->name = 'document__preview__file_field_media_large_icon';
-  $file_display->weight = 0;
+  $file_display->weight = 50;
   $file_display->status = TRUE;
   $file_display->settings = '';
   $file_displays['document__preview__file_field_media_large_icon'] = $file_display;

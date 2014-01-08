@@ -623,7 +623,7 @@ function media_format_form($form, $form_state, $file) {
     '#default_value' => $default_view_mode,
     '#description' => t('Choose the type of display you would like for this
       file. Please be aware that files may display differently than they do when
-      they are insterted into an editor.')
+      they are inserted into an editor.')
   );
 
   // Add fields from the file, so that we can override them if neccesary.
